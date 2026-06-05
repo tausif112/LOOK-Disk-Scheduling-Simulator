@@ -72,7 +72,6 @@ Instead of moving the disk head to the extreme end of the disk, LOOK only travel
 
 1. Start from the current disk head position.
 2. Divide requests into:
-
    * Right-side requests
    * Left-side requests
 3. Sort right-side requests in ascending order.
@@ -135,7 +134,11 @@ Total cylinder movement: 299
 
 ---
 
-## 📸 Google Colab Workspace
+## 📸 Google Colab Development Environment
+
+The project was implemented and tested using Google Colaboratory.
+
+### Google Colab Workspace
 
 ![Colab Workspace](screenshots/colab-workspace.png)
 
@@ -200,7 +203,7 @@ python look.py
 
 ## 🔮 Future Improvements
 
-* C-LOOK Disk Scheduling Implementation
+* C-LOOK Disk Scheduling 
 * SCAN Disk Scheduling Comparison
 * C-SCAN Disk Scheduling Comparison
 * SSTF Disk Scheduling Comparison
@@ -211,25 +214,18 @@ python look.py
 
 ---
 
-# 📄 License
+## 👨‍💻 Author
 
-This project is licensed under the MIT License.
+<div align='center'>
+    
+### Md Tausif Uddin
 
-See the LICENSE file for details.
-
----
-
-# 👨‍💻 Author
-
-**Md. Tausif Uddin**
-B.Sc. in Computer Science and Engineering (CSE)
+Department of Computer Science & Engineering (CSE)  
 University of Asia Pacific (UAP)
 
 GitHub: https://github.com/tausif112
 
 ---
-
-<div align="center">
 
 ⭐ If you found this project useful, consider giving it a star!
 
